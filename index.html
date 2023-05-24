@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game Ada</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game">
+        <div class="controls">
+            <button id="start">
+                Start
+            </button>
+            <button id="restart">
+                Restart
+            </button>
+            <div class="moves">
+                0 moves
+            </div>
+            <div class="timer">
+                time: 0 secs
+            </div>
+        </div>
+        <div class="board-container">
+            <div class="board" data-dimension="4">
+                <!-- Data dimension significa que se divide la página en 4 trozos, ponele-->
+            </div>
+            <div class="win">
+                You won!
+            </div>
+        </div>
+    </div>
+    <script src="assets/game.js"></script>
+</body>
+</html>
